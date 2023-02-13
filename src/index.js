@@ -6,7 +6,10 @@ const main = () => {
   const [start, finish] = getRange();
   const shuffled = shuffleArray(prepareArray(start, finish));
 
-  fs.writeFileSync(path.join("./", "randomisedSequence.txt"), shuffled);
+  fs.writeFileSync(
+    path.join("./", "randomisedSequence.txt"),
+    shuffled.toString()
+  );
 
   console.info("\nOutput was saved to 'randomisedSequence.txt'");
 };

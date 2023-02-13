@@ -24,5 +24,5 @@ export const shuffleArray = (arr) => {
     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
 
-  return shuffled.toString();
+  return shuffled;
 };
