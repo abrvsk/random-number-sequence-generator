@@ -1,0 +1,16 @@
+{
+  "name": "random-number-sequence-generator",
+  "version": "1.0.0",
+  "description": "Generate a randomised sequence of integers from N to K (inclusive)",
+  "main": "src/index.js",
+  "repository": "https://github.com/abrvsk/random-number-sequence-generator.git",
+  "author": "Andrii Borovskyi <abrvsk@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
