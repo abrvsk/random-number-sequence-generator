@@ -15,6 +15,6 @@ describe("Shuffle Array", () => {
     const firstRun = shuffleArray(sequencedArray);
     const secondRun = shuffleArray(sequencedArray);
 
-    expect(firstRun).not.toEqual(secondRun);
+    expect(firstRun.toString()).not.toEqual(secondRun.toString());
   });
 });
