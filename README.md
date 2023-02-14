@@ -18,7 +18,9 @@ To start run
 yarn start
 ```
 
-And follow the prompts in the terminal. The output will be saved to `<path-to-directory>/randomisedSequence.txt`
+And follow the prompts in the terminal.
+
+The output will be saved to `<path-to-directory>/randomisedSequence.txt`
 
 ### Testing
 
