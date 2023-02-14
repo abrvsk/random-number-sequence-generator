@@ -22,6 +22,8 @@ yarn start
 
 And follow the prompts in the terminal.
 
+On incorrect inputs (like float or `start` being bigger than `end`) you will have to start again.
+
 The output will be saved to `<path-to-directory>/randomisedSequence.txt`
 
 ### Testing
